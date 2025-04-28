@@ -34,6 +34,7 @@ function App() {
     setTours(tours.filter((tour) => tour.id !== id));
   };
 
+  // Conditional rendering for loading and error states
   if (loading) {
     return <h2>Loading...</h2>;
   }
